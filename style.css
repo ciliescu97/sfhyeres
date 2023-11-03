@@ -202,6 +202,37 @@
 
 
 /* CONTACT FORM */
+
+
+form {
+    display: block;
+    border: 5px solid blue; /* Add a 5px thick blue border to the contact form */
+    padding: 20px; /* Add padding to the contact form */
+    border-radius: 10px; /* Add rounded corners to the contact form */
+    background-color: white; /* Set the background color to white */
+}
+
+form .fcf-body {
+    margin: 0;
+    font-family: -apple-system, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    padding: 30px;
+    padding-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    max-width: 100%;
+}
+
+
+
+
+
+
 #fcf-form {
     display:block;
 }
@@ -362,6 +393,7 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
 }
+
 
 
 
