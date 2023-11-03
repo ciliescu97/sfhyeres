@@ -409,6 +409,33 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   padding: 2px 5px; /* Adjust padding as needed */
 }
 
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
 
 /* BESOIN D'AIDE TEXT"
 
@@ -429,6 +456,41 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   color: #4CAF50; /* Green text color for time */
   font-weight: bold;
 }
+
+
+
+/* Style the form container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Style form elements */
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+  background-color: #0074b5;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add more styles as needed */
+
+
+
 
 
 /* FOOTER */
